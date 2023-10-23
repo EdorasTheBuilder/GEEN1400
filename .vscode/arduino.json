@@ -1,4 +1,6 @@
 {
-    "port": "COM3",
-    "board": "arduino:avr:uno"
+    "port": "COM4",
+    "board": "arduino:avr:uno",
+    "programmer": "arduinoisp",
+    "sketch": "Prototyping\\soil_sensor_v1.ino"
 }
