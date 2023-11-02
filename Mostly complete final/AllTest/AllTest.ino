@@ -11,10 +11,10 @@
 	//are we pulling from reserves or not?
 
 //pumps, solonoid pins
-#define Pump 13
-#define Solenoid1 12 
-#define Solenoid2 11  
-#define PullStatus 10 
+#define Pump 12
+#define Solenoid1 11 
+#define Solenoid2 10  
+#define PullStatus 9
 
 //manual shutoff pins
 #define Switch 2
@@ -49,8 +49,7 @@ void setup()
 
 
 
-void loop()
-{
+void loop() {
   int SwitchStatus = 0;
   
   int Moisture = analogRead(SoilSensor); // read the analog value from sensor
@@ -64,51 +63,14 @@ void loop()
   Serial.print("Switch Status (1 is bad, 0 is good):");
   Serial.println(SwitchStatus);
   
-  if(SwitchStatus == 0){
-    
-    if(Rainwater_Status > 200){
-      //ensures that only one valve is open at a time 
-      digitalWrite(PullStatus, LOW);
-      //wateroff(Solenoid2);
-      
-      
-      if(Moisture > 400){
-        waterflow(Solenoid1);
-
-
-      }else{
-        wateroff(Solenoid1);
-      }
-    }else{
-      //ensures that only one valve is open a time 
-      wateroff(Solenoid1);
-      digitalWrite(PullStatus, HIGH);
-      
-      if(Moisture > 400){
-        waterflow(Solenoid2);
-
-
-
-      }else{
-        wateroff(Solenoid2);
-
-
-      }
-    }
-  }else{
-  Serial.println("Off Switch enganged. No water will be pumped until fault is rectified");
-  delay(2000);
-  }
-    
-    
-    
-    
-    
-    
-}//end of void loop
-    
-
   
+  
+  waterflow(Solenoid1); 
+  waterflow(Solenoid2);
+
+}
+
+
 void waterflow(int valve){
   //valve= either solenoid 1 or 2 
   digitalWrite(valve, HIGH);
@@ -121,18 +83,4 @@ void waterflow(int valve){
 void wateroff(int valve){
   digitalWrite(valve, LOW);
   delay(2000);
-  digitalWrite(Pump, LOW);
-  delay(500);
 }
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    

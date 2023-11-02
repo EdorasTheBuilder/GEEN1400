@@ -69,7 +69,7 @@ void loop()
     if(Rainwater_Status > 200){
       //ensures that only one valve is open at a time 
       digitalWrite(PullStatus, LOW);
-      //wateroff(Solenoid2);
+      wateroff(Solenoid2);
       
       
       if(Moisture > 400){
