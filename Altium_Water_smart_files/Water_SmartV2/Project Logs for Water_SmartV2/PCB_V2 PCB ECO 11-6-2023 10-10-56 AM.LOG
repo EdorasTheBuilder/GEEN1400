@@ -1,0 +1,92 @@
+Add Component: Footprint Not Found ARDUINO_A000066
+Add Component: Footprint Not Found ARDUINO_A000066
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Added Component: Designator=J8(691111710002)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/691111710002/Wurth+Electronics+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "691111710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/691111710002/Wurth+Electronics+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found 691111710002
+Add Component: Footprint Not Found JF-2_1X2_TU_SSQ
+Add Component: Footprint Not Found JF-2_1X2_TU_SSQ
+Add Component: Footprint Not Found JF-2_1X2_TU_SSQ
+Add Component: Footprint Not Found 6_PIN_100MIL-Male
+Add Component: Footprint Not Found JF_TE_5-535541-1
+Add Component: Footprint Not Found JF_TE_5-535541-1
+Add Component: Footprint Not Found LED_1206
+Add Component: Footprint Not Found LED_1206
+Add Component: Footprint Not Found LED_1206
+Add Component: Footprint Not Found LED_1206
+Add Component: Footprint Not Found TO220V
+Add Component: Footprint Not Found TO220V
+Add Component: Footprint Not Found TO254P469X1042X1967-3P
+Add Component: Footprint Not Found TO254P469X1042X1967-3P
+Add Component: Footprint Not Found TO254P469X1042X1967-3P
+Add Component: Footprint Not Found TO220V
+Add Component: Footprint Not Found TO220V
+Add Component: Footprint Not Found Switch_JLC
+Added Net: Name=+12
+Added Pin To Net: NetName=GND Pin=J8-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetA1_5V Pin=J8-2
+Added Net: Name=NetA1_5V
+Added Net: Name=NetA1_A0
+Added Net: Name=NetA1_A1
+Added Net: Name=NetA1_D0
+Added Net: Name=NetA1_D1
+Added Net: Name=NetA1_D8
+Added Net: Name=NetA1_D9
+Added Net: Name=NetA1_D10
+Added Net: Name=NetA1_GND_1
+Added Net: Name=NetJ1_2
+Added Net: Name=NetJ2_2
+Added Net: Name=NetJ3_2
+Added Net: Name=NetJ11_2
+Added Net: Name=NetJ12_2
+Added Net: Name=NetJ13_2
+Added Net: Name=NetJ14_1
+Added Net: Name=NetJ14_2
+Added Net: Name=NetJ14_3
+Added Net: Name=NetJ14_4
+Added Net: Name=NetJ14_5
+Added Net: Name=NetJ14_6
+Added Net: Name=VCC
+Add Class Member: Failed to add class member : Component A1 A000066
+Add Class Member: Failed to add class member : Component A2 A000066
+Add Class Member: Failed to add class member : Component J1 691111710002
+Add Class Member: Failed to add class member : Component J2 691111710002
+Add Class Member: Failed to add class member : Component J3 691111710002
+Add Class Member: Failed to add class member : Component J4 691111710002
+Add Class Member: Failed to add class member : Component J5 691111710002
+Add Class Member: Failed to add class member : Component J6 691111710002
+Add Class Member: Failed to add class member : Component J7 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J8 691111710002
+Add Class Member: Failed to add class member : Component J9 691111710002
+Add Class Member: Failed to add class member : Component J10 691111710002
+Add Class Member: Failed to add class member : Component J11 SSQ-102-02-G-S
+Add Class Member: Failed to add class member : Component J12 SSQ-102-02-G-S
+Add Class Member: Failed to add class member : Component J13 SSQ-102-02-G-S
+Add Class Member: Failed to add class member : Component J14 MALE
+Add Class Member: Failed to add class member : Component J15 5-535541-1
+Add Class Member: Failed to add class member : Component J16 5-535541-1
+Add Class Member: Failed to add class member : Component LED1 White
+Add Class Member: Failed to add class member : Component LED2 Blue
+Add Class Member: Failed to add class member : Component LED3 Green
+Add Class Member: Failed to add class member : Component LED4 Red
+Add Class Member: Failed to add class member : Component Q1 FQP30N06L
+Add Class Member: Failed to add class member : Component Q2 FQP30N06L
+Add Class Member: Failed to add class member : Component Q3 IRL520NPBF
+Add Class Member: Failed to add class member : Component Q4 IRL520NPBF
+Add Class Member: Failed to add class member : Component Q5 IRL520NPBF
+Add Class Member: Failed to add class member : Component Q FQP30N06L
+Add Class Member: Failed to add class member : Component Q FQP30N06L
+Add Class Member: Failed to add class member : Component SW1 TL3305AF160QG
