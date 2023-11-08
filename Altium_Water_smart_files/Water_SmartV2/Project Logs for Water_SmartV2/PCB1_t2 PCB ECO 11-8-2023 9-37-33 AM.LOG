@@ -1,0 +1,20 @@
+Added Component: Designator=J9(691111710002)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/691111710002/Wurth+Electronics+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "691111710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/691111710002/Wurth+Electronics+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J10(691111710002)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/691111710002/Wurth+Electronics+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "691111710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/691111710002/Wurth+Electronics+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetA1_5V Pin=J9-1
+Added Pin To Net: NetName=NetA1_A0 Pin=J9-2
+Added Pin To Net: NetName=NetA1_A1 Pin=J10-1
+Added Pin To Net: NetName=NetA1_GND_1 Pin=J10-2
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J9 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J10 691111710002
