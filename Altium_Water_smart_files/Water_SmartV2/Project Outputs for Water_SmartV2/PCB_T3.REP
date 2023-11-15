@@ -2,6 +2,17 @@
 FileName = PCB_T3.GBR
 AutoAperture = True
 *************************************************************
+Generating : Mechanical 15
+      File : PCB_T3.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D26
+*************************************************************
+
+*************************************************************
 Generating : Bottom Layer
       File : PCB_T3.GBL
 
@@ -11,41 +22,12 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D13
     D19
     D20
     D21
     D22
     D23
     D24
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : PCB_T3.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB_T3.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
 *************************************************************
 
 *************************************************************
@@ -68,28 +50,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : PCB_T3.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D19
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : PCB_T3.GBP
-
-    Adding Layer      : Bottom Paste
+Generating : Bottom Pad Master
+      File : PCB_T3.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -97,16 +59,11 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PCB_T3.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
 *************************************************************
 
 *************************************************************
@@ -129,11 +86,72 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Layer
+      File : PCB_T3.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : PCB_T3.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D11
+    D13
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PCB_T3.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB_T3.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
 Generating : Profile
       File : PCB_T3.GM
 
 
 Used DCodes :
-    D25
+    D27
 *************************************************************
 

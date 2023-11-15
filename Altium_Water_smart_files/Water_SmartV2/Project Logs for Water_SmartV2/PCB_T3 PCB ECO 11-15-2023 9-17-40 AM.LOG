@@ -1,0 +1,16 @@
+Change Component DesignItemId : Designator=J1 Old DesignItemId= New DesignItemId=691111710002
+Change Component DesignItemId : Designator=J2 Old DesignItemId= New DesignItemId=691111710002
+Change Component DesignItemId : Designator=J4 Old DesignItemId= New DesignItemId=691111710002
+Change Component DesignItemId : Designator=J5 Old DesignItemId= New DesignItemId=691111710002
+Change Component DesignItemId : Designator=J9 Old DesignItemId= New DesignItemId=691111710002
+Added Pin To Net: NetName=+12 Pin=A1-VIN
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component A1 A000066
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J1 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J2 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J4 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J5 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J8 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component J9 691111710002
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component Q1 FQP30N06L
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component Q2 FQP30N06L
+Added Member To Class: ClassName=Water_Smart_SchematicV2 Member=Component Q3 FQP30N06L
