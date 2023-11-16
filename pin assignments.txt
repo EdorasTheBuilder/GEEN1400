@@ -1,0 +1,14 @@
+ignore the j.whatever, that's pcb stuff
+
+
+d8 - pump - j5.2
+d9 - solenoid 1 - J2.1
+d10 - solenoid 2 - J2.2
+d1 - switch in - j4.2
+d2 - empty tank, pulling from reserves - j4.1
+d3 - full rainwater tank - socket pin
+a0
+
+
+pwr - j1.1 
+ground - j8.1, j5.1
