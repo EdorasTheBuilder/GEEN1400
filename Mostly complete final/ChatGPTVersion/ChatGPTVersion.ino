@@ -4,16 +4,16 @@
 
 // Sensors
 #define SoilSensor A0
-#define Rainwater d3
+#define Rainwater 3
 
 // Pumps and solenoid pins
-#define Pump d8
-#define Solenoid1 d9
-#define Solenoid2 d10
-#define PullStatus d2
+#define Pump 8
+#define Solenoid1 9
+#define Solenoid2 10
+#define PullStatus 2
 
 // Manual shutoff pins
-#define Switch d1
+#define Switch 1
 
 int SwitchStatus = 0;
 
