@@ -7,17 +7,16 @@
 
 //sensors
 #define SoilSensor A0
-#define Rainwater A1
-	//are we pulling from reserves or not?
+#define Rainwater d3
 
-//pumps, solonoid pins
-#define Pump 13
-#define Solenoid1 12 
-#define Solenoid2 11  
-#define PullStatus 10 
+// Pumps and solenoid pins
+#define Pump d8
+#define Solenoid1 d9
+#define Solenoid2 d10
+#define PullStatus d2
 
-//manual shutoff pins
-#define Switch 2
+// Manual shutoff pins
+#define Switch d1
 
 
 //PIN ASSIGNMENTS SUBJECT TO CHANGE IN PCB. 
