@@ -27,7 +27,7 @@ void setup() {
 
 
 }
-
+z
 void loop() {
   int value = analogRead(AOUT_PIN); // read the analog value from sensor
 
