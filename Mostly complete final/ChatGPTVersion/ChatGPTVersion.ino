@@ -4,7 +4,7 @@
 
 // Sensors
 #define SoilSensor A0
-#define Rainwater 3
+#define Rainwater A1
 
 // Pumps and solenoid pins
 #define Pump 8
