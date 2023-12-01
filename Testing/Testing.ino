@@ -55,8 +55,6 @@ void loop() {
   int Rainwater_Status = analogRead(Rainwater); // Read the analog value from the rainwater sensor
   Serial.print("Water level in tank: ");
   Serial.println(Rainwater_Status);
-  Serial.print("Switch Status (1 is bad, 0 is good): ");
-  Serial.println(SwitchStatus);
 
 
   //switch
@@ -77,6 +75,6 @@ void loop() {
 
   Serial.print("Distance: ");  
 	Serial.println(distance);  
-	delay(100);  
+	delay(500);  
 
 }
