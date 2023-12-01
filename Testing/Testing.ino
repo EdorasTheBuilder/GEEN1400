@@ -79,4 +79,11 @@ void loop() {
 	Serial.println(distance);  
 	delay(100);  
 
+  //all one
+
+  digitalWrite(Pump, HIGH);
+  digitalWrite(Solenoid1, HIGH);
+  digitalWrite(Solenoid2, HIGH);
+
+
 }
