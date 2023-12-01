@@ -14,6 +14,10 @@
 int SwitchStatus = 0;
 
 
+// distanse sensor
+const int trigPin = 12;  
+const int echoPin = 13; 
+
 
 void setup() {
   Serial.begin(9600);
@@ -29,6 +33,13 @@ void setup() {
 
   // Manual shutoff pins
   pinMode(Switch, INPUT);
+
+  //input
+  pinMode(trigPin, OUTPUT);  
+	pinMode(echoPin, INPUT);  
+
+
+
 }
 
 void loop() {
@@ -51,4 +62,21 @@ void loop() {
   //switch
   Serial.print("Switch Status (1 is bad, 0 is good): ");
   Serial.println(SwitchStatus);
+
+
+
+  //sesnor
+  digitalWrite(trigPin, LOW);  
+	delayMicroseconds(2);  
+	digitalWrite(trigPin, HIGH);  
+	delayMicroseconds(10);  
+	digitalWrite(trigPin, LOW);
+
+  int duration = pulseIn(echoPin, HIGH);
+  int distance = (duration*.0343)/2;
+
+  Serial.print("Distance: ");  
+	Serial.println(distance);  
+	delay(100);  
+
 }
