@@ -10,8 +10,6 @@
 // Manual shutoff pins
 #define Switch 0
 
-int SwitchStatus = 0;
-
 
 // distanse sensor
 const int trigPin = 12;   
@@ -19,7 +17,7 @@ const int echoPin = 13;
 
 
 //led pins 
-#define EmptyTank 0
+#define EmptyTank 3
 #define FullTank 1
 #define PumpLED 4
 
@@ -43,8 +41,8 @@ void setup() {
 
   //LED pins
   pinMode(EmptyTank, OUTPUT);
-  pinMode(FullTank, INPUT); 
-  pinMode(PumpLED, INPUT);
+  pinMode(FullTank, OUTPUT); 
+  pinMode(PumpLED, OUTPUT);
 
 
 
@@ -66,6 +64,7 @@ void loop() {
 
 
   //switch
+  int SwitchStatus = digitalRead(Switch);
   Serial.print("Switch Status (1 is bad, 0 is good): ");
   Serial.println(SwitchStatus);
 
@@ -88,7 +87,7 @@ void loop() {
 
 
 // LOGIC 
-if(SwitchStatus == 0){
+if(SwitchStatus == 1){
     
     if(Moisture > 450){
       //ensures that only one valve is open at a time 
