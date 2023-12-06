@@ -8,7 +8,7 @@
 #define Solenoid2 10
 
 // Manual shutoff pins
-#define Switch 1
+#define Switch 0
 
 int SwitchStatus = 0;
 
@@ -119,7 +119,7 @@ if(SwitchStatus == 0){
     }
   }else{
   Serial.println("Off Switch enganged. No water will be pumped until fault is rectified");
-  delay(2000);
+  delay(2000);  
   }
     
     
