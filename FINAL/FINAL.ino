@@ -108,17 +108,16 @@ if(SwitchStatus == 1){
 
     }else{
       //ensures that only one valve is open a time 
-      digitalWrite(Pump, LOW);
-      digitalWrite(Solenoid1, LOW);
-      digitalWrite(Solenoid2, LOW); 
-      digitalWrite(PumpLED, LOW); 
+      AllOff();
       
   
 
     }
   }else{
   Serial.println("Off Switch enganged. No water will be pumped until fault is rectified");
-  delay(2000);  
+  delay(2000); 
+  AllOff();
+
   }
     
     
@@ -126,4 +125,13 @@ if(SwitchStatus == 1){
     
     
 
+}
+
+
+
+void AllOff(){
+  digitalWrite(Pump, LOW);
+  digitalWrite(Solenoid1, LOW);
+  digitalWrite(Solenoid2, LOW); 
+  digitalWrite(PumpLED, LOW); 
 }
