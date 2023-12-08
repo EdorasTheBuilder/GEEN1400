@@ -8,7 +8,7 @@
 #define Solenoid2 10
 
 // Manual shutoff pins
-#define Switch 0
+#define Switch 4
 
 
 // distanse sensor
@@ -18,8 +18,8 @@ const int echoPin = 13;
 
 //led pins 
 #define EmptyTank 3
-#define FullTank 1
-#define PumpLED 4
+#define FullTank 2
+
 
 void setup() {
   Serial.begin(9600);
@@ -42,7 +42,26 @@ void setup() {
   //LED pins
   pinMode(EmptyTank, OUTPUT);
   pinMode(FullTank, OUTPUT); 
-  pinMode(PumpLED, OUTPUT);
+
+
+
+
+
+  /////// POST 
+
+  delay(500);
+  digitalWrite(EmptyTank, HIGH); 
+  delay(500);
+  digitalWrite(FullTank, HIGH); 
+  delay(2000);
+
+
+
+  delay(500);
+  digitalWrite(EmptyTank, LOW); 
+  delay(500);
+  digitalWrite(FullTank, LOW); 
+  delay(500);
 
 
 
@@ -87,23 +106,25 @@ void loop() {
 
 
 // LOGIC 
-if(SwitchStatus == 1){
+if(SwitchStatus == 0){
     
     if(Moisture > 450){
       //ensures that only one valve is open at a time 
       digitalWrite(Pump, HIGH); 
-      digitalWrite(PumpLED, HIGH); 
+    
 
-      if(Rainwater_Status < 300){ //rainwater tank is empty 
+      if(Rainwater_Status > 300){ //rainwater tank is empty 
         digitalWrite(Solenoid2, LOW);
         digitalWrite(Solenoid1, HIGH);  
         digitalWrite(EmptyTank, HIGH); 
+        digitalWrite(FullTank, LOW); 
 
 
       }else{
         digitalWrite(Solenoid1, LOW);
         digitalWrite(Solenoid2, HIGH);
         digitalWrite(FullTank, HIGH); 
+        digitalWrite(EmptyTank, LOW); 
       }
 
     }else{
@@ -133,5 +154,6 @@ void AllOff(){
   digitalWrite(Pump, LOW);
   digitalWrite(Solenoid1, LOW);
   digitalWrite(Solenoid2, LOW); 
-  digitalWrite(PumpLED, LOW); 
+  
 }
+
